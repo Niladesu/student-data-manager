@@ -1,4 +1,6 @@
 students = []
+students.append({"firstname": "Ziba", "lastname": "Moradi", "sid": "40112678"})
+
 
 def sort_students(key):
     return sorted(students, key=lambda x: x[key])
